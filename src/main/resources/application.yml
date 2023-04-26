@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=prodhib
+    username: postgres
+    password: Asdfg6hj
+  sql:
+    init:
+      mode: always
