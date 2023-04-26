@@ -1,8 +1,10 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=prodhib
+#    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=prodhib
+    url: jdbc:postgresql://containers-us-west-44.railway.app:5680:railway
     username: postgres
-    password: Asdfg6hj
+    password: 074xVH67VZ7FVtkwBTZb
+
   sql:
     init:
       mode: always
